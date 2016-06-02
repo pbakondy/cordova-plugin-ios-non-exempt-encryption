@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-ios-non-exempt-encryption",
+  "version": "1.0.0",
+  "description": "Export Compliance: set ITSAppUsesNonExemptEncryption to false in Info.plist file",
+  "cordova": {
+    "id": "cordova-plugin-ios-non-exempt-encryption",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pbakondy/cordova-plugin-ios-non-exempt-encryption.git"
+  },
+  "keywords": [
+    "cordova",
+    "ios",
+    "TestFlight",
+    "Export Compliance",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Peter Bakondy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pbakondy/cordova-plugin-ios-non-exempt-encryption/issues"
+  },
+  "homepage": "https://github.com/pbakondy/cordova-plugin-ios-non-exempt-encryption#readme"
+}

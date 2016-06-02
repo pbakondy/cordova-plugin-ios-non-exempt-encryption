@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-ios-non-exempt-encryption"
+    version="1.0.0">
+
+  <name>ITSAppUsesNonExemptEncryption false</name>
+  <description>Export Compliance: set ITSAppUsesNonExemptEncryption to false in Info.plist file</description>
+  <license>MIT</license>
+  <keywords>ios,TestFlight,Export Compliance</keywords>
+  <repo>https://github.com/pbakondy/ccordova-plugin-ios-non-exempt-encryption</repo>
+  <issue>https://github.com/pbakondy/cordova-plugin-ios-non-exempt-encryption/issues</issue>
+
+  <platform name="ios">
+    <config-file platform="ios" target="*-Info.plist" parent="ITSAppUsesNonExemptEncryption">
+      <false/>
+    </config-file>
+  </platform>
+
+</plugin>
